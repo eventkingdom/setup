@@ -1,6 +1,5 @@
 #!/bin/bash
 
-mkdir ~/bin
 mkdir -p ~/EK/Event.Kingdom.Mail
 cd ~/EK
 
