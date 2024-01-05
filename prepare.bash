@@ -10,6 +10,5 @@ svn co --username ekmaster ${SVNROOT}/Event.Kingdom.Mail ./Event.Kingdom.Mail
 mkdir -p ~/collected-mails
 mkdir -p ~/processed
 
-cp -f ~/EK/Event.Kingdom.Mail/etc/env/common/home/_common/bin/update ~/bin/
-chmod a+x ~/bin/update
-~/bin/update
+cp -f ~/EK/Event.Kingdom.Mail/etc/env/common/home/_common/bin/update.bash ~/bin/
+bash ~/bin/update.bash
