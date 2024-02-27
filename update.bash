@@ -29,6 +29,7 @@ svn up *
 echo "- Copy common scripts."
 echo "  <<  ~/EK/Event.Kingdom.Mail/etc/env/common/home/_common/bin/"
 rsync -av ~/EK/Event.Kingdom.Mail/etc/env/common/home/_common/bin/ ~/bin/
+cp -vf ~/EK/Event.Kingdom.Mail/etc/env/common/home/_common/.my.cnf ~/
 
 # (2) get "common" version of this user scripts (if any)
 if [[ -d ~/EK/Event.Kingdom.Mail/etc/env/common/home/$LOGNAME/bin ]]; then
