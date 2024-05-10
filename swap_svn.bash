@@ -1,5 +1,9 @@
 #!/bin/bash
 
+###
+# > curl https://raw.githubusercontent.com/eventkingdom/setup/main/swap_svn.bash
+# > bash swap_svn.bash
+###
 
 if [ -d "${HOME}/EK" ]; then
 
