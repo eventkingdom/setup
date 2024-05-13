@@ -44,6 +44,7 @@ if [ -d "${HOME}/EK" ]; then
 	if [ -d "${HOME}/_xpdev_EK/Event.Kingdom.Assets/www/mp3/users" ]; then
 		echo "Remounting users mp3 storage.."
 		mv -v ${HOME}/_xpdev_EK/Event.Kingdom.Assets/www/mp3/users ${HOME}/EK/Event.Kingdom.Assets/www/mp3/users
+		mv -v ${HOME}/_xpdev_EK/Event.Kingdom.Assets/www/mp3/.htpasswd ${HOME}/EK/Event.Kingdom.Assets/www/mp3/.htpasswd
 	fi
 
 fi
