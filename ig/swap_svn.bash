@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###
-# > curl -o swap_svn.bash https://raw.githubusercontent.com/eventkingdom/setup/main/swap_svn.bash
+# > curl -o swap_svn.bash https://raw.githubusercontent.com/eventkingdom/setup/main/ig/swap_svn.bash
 # > bash swap_svn.bash
 ###
 
