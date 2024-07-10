@@ -58,7 +58,7 @@ svn co $SVNROOT/Event.Kingdom.Translation ./Event.Kingdom.Translation
 echo -e "\n\n" >> $HOME/.profile
 cat $HOME/EK/Event.Kingdom/etc/env/shared$HOME/.profile.addition >> $HOME/.profile
 
-touch $HOME/.eventkingdom
+cp $HOME/EK/Event.Kingdom/etc/env/shared/home/ekmaster/.eventkingdom $HOME/
 echo -e "\n\nexport SVNROOT=$SVNROOT\n\n" >> $HOME/.eventkingdom
 if [ "PROD" != "$1" ]; then
 	# change SVN location to development/head/trunk
